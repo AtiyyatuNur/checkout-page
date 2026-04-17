@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut Page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+      <div class="logo">Jaligo</div>
+      <div class="cart-icon">Cart</div>
+    </header>
+
+    <a class="back-to-page" href="#">Back to page</a>
+    <div class="checkout-container">
+      <div class="content-box large">
+          <p class="box-label">Shipping Information</p>
+          <div class="input-row">
+              <div class="field-row">
+                 <input class="field" type="text" placeholder="First Name" /> 
+                 <input class="field" type="text" placeholder="Last Name" /> 
+              </div>
+              <input class="field" type="text" placeholder="Address" />
+              <div class="field-row">
+                  <input class="field" type="text" placeholder="City" /> 
+                  <input class="field" type="text" placeholder="Zip Code" /> 
+              </div>
+          </div>
+      </div>
+
+    <div class="content-box medium">
+        <p class="box-label">Payment Information</p>
+        <div class="input-row">
+            <input class="field" type="text" placeholder="Cardholder Name" /> 
+            <input class="field" type="text" maxlength="16" placeholder="Card Number" /> 
+            <div class="field-row">
+                <input class="field" type="text" maxlength="5" placeholder="MM / YY" /> 
+                <input class="field" type="text"   maxlength="3" placeholder="CVV" /> 
+            </div>
+        </div>
+    </div> 
+
+
+    <div class="summary-box">
+      <p class="box-label">Order Summary</p>
+      <div class="summary-item">
+        <span>Product Subtotal</span>
+        <span class="price">$120.00</span>
+      </div>
+      <div class="summary-item">
+        <span>Shipping</span>
+        <span class="price">$5.00</span>
+      </div>
+      <div class="summary-item">
+        <span>Discount</span>
+        <span class="price">- $0.00</span>
+      </div>
+      <div class="summary-item total">
+        <span>Total</span>
+        <span>$125.00</span>
+      </div>
+    </div>
+    
+    <div class="btn-submit">
+        <button class="checkout-btn">Place Order</button>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">Jaligo</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Policy</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+        
+        <div class="footer-promo">
+          <input type="text" placeholder="Enter promo code" />
+          <button class="promo-btn">Apply</button>
+        </div>
+        <p class="promo-help">Promo codes give a discount on the current order total.</p>
+
+        <div class="footer-copy">
+            &copy; 2026 Jaligo. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
